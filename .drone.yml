@@ -6,4 +6,4 @@ pipeline:
   test:
     image: alpine
     commands:
-      - ./a.out
+      - ls
