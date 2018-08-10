@@ -2,4 +2,4 @@ pipeline:
   build:
     image: gcc
     commands:
-      - ls
+      - g++ -o a.out main.cpp
