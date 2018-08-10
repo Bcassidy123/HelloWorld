@@ -1,9 +1,16 @@
 pipeline:
   build:
-    image: gcc
+    image: gcc:${GCC_VERSION}
     commands:
       - g++ -o a.out main.cpp
   test:
     image: alpine
     commands:
       - ls
+
+matrix:
+  GCC_VERSION:
+    - 5
+    - 6
+    - 7 
+    - 8
