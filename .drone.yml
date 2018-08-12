@@ -3,6 +3,7 @@ pipeline:
     image: gcc:${GCC_VERSION}
     commands:
       - g++ -o a.out main.cpp
+      - ./a.out
   test:
     image: alpine
     commands:
