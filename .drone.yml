@@ -11,4 +11,5 @@ pipeline:
 
 matrix:
   GCC_VERSION:
+    - 7
     - 8
