@@ -6,6 +6,7 @@ int bar()
 }
 int main()
 {
+  std::cout << "ANd dagain" << std::endl;
   std::cout << "Dumpster!" << std::endl;
   std::cout << "Hello, World!" << std::endl;
   return 0;
